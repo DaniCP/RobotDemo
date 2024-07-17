@@ -1,6 +1,9 @@
 ====================
 Robot Framework Demo
 ====================
+Forked from robotframework/RobotDemo (https://github.com/robotframework/RobotDemo)
+
+Added GUI for demo mixing manual and auto testing.
 
 `Robot Framework`_ is a generic open source test automation framework.
 In addition to introducing Robot Framework test data syntax, this demo

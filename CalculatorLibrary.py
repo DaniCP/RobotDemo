@@ -10,6 +10,12 @@ class CalculatorLibrary(object):
     def __init__(self):
         self._calc = Calculator()
         self._result = ''
+        
+    def launch_gui(self):
+        self._calc.show_gui()
+
+    def close_application(self):
+        self.gui_end_cmd = True
 
     def push_button(self, button):
         """Pushes the specified ``button``.

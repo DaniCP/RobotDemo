@@ -11,11 +11,15 @@ Documentation     Example test cases using the keyword-driven testing approach.
 ...               same workflow needs to repeated multiple times, it is best
 ...               to use to the _data-driven_ approach.
 Library           CalculatorLibrary.py
+Test Setup       Launch Gui
+Test Teardown    Close Application
 
 *** Test Cases ***
 Push button
+    # Launch Gui
     Push button    1
     Result should be    1
+    # Close Application
 
 Push multiple buttons
     Push button    1
